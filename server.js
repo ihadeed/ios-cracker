@@ -1,7 +1,7 @@
 const PBKDF2 = require('crypto-js/pbkdf2'),
     BASE64 = require('crypto-js/enc-base64');
 
-let [start, end] = ['2962', '9999'];
+let [start, end] = ['0000', '9999'];
 
 let [key, salt] = [
     'JVLkwfuXFNo1O/D7fKOwOJ2k6LI=', // RestrictionsPasswordKey
